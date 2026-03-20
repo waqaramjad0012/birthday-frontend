@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/card.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
